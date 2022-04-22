@@ -1076,6 +1076,7 @@ main .recent-orders a{
 
 /*Designing the Scroll-Up button*/
 #progress{
+  background: var(--primary-color);
   position: fixed;
   bottom: 20px;
   right: 10px;
@@ -1084,7 +1085,7 @@ main .recent-orders a{
   display: none;
   place-items: center;
   border-radius: 50%;
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 10px rgba(6, 130, 208, 0.2);
   cursor: pointer;
   z-index: 5;
 }
@@ -1100,7 +1101,6 @@ main .recent-orders a{
   font-size: 35px;
   color: #001a2e;
 }
-
 
 /*Animations*/
 @keyframes main-animation {
