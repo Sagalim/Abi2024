@@ -953,6 +953,7 @@ main .recent-orders a{
   min-height: 100vh;
   background: var(--section-background-color);
   background-attachment: fixed;
+  flex-wrap: wrap;
 }
 
 .top-project{
@@ -1029,10 +1030,6 @@ main .recent-orders a{
 
 .container-project .card:nth-child(3) .circle{
   background: #bb02ff;
-}
-
-@media screen and (min-width: 768px){
-  
 }
 
 
