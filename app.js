@@ -1,9 +1,11 @@
 const hamburger_menu = document.querySelector(".hamburger-menu");
 const container = document.querySelector(".container");
 
-hamburger_menu.addEventListener("click", () => {
-  container.classList.toggle("active");
-});
+if(window.innerWidth > 768){
+  hamburger_menu.addEventListener("click", () => {
+    container.classList.toggle("active");
+  });
+}
 
 const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");
