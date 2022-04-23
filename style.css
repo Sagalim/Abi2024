@@ -1044,7 +1044,7 @@ main .recent-orders a{
 .list-ideas ul{
   position: relative;
   width: 80vw;
-  margin: 200px auto 0;
+  margin: 100px auto 0;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -1054,7 +1054,7 @@ main .recent-orders a{
   background: rgba(255, 255, 255, .1);
   padding: 20px 20px;
   color: var(--white-color);
-  margin: 1% 0;
+  margin: 15px 0;
   transition: .5s;
   border-radius: 50px;
 }
@@ -1072,8 +1072,10 @@ main .recent-orders a{
 }
 
 .list-ideas ul li:hover{
-  transform: scale(1.06);
+  transform: scale(1.05);
   background: var(--section-background-color);
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 
