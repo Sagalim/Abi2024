@@ -1080,8 +1080,8 @@ main .recent-orders a{
   position: fixed;
   bottom: 20px;
   right: 10px;
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   display: none;
   place-items: center;
   border-radius: 50%;
