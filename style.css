@@ -229,24 +229,27 @@ header {
   text-decoration: none;
 }
 
-.container.active .bar {
-  transform: rotate(360deg);
-  background-color: transparent;
+@media only screen and (min-width: 768px){
+  .container.active .bar {
+    transform: rotate(360deg);
+    background-color: transparent;
+  }
+  
+  .container.active .bar:before {
+    transform: translateY(0) rotate(45deg);
+  }
+  
+  .container.active .bar:after {
+    transform: translateY(0) rotate(-45deg);
+  }
+  
+  .container.active .main {
+    animation: main-animation 0.5s ease;
+    cursor: pointer;
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
 }
 
-.container.active .bar:before {
-  transform: translateY(0) rotate(45deg);
-}
-
-.container.active .bar:after {
-  transform: translateY(0) rotate(-45deg);
-}
-
-.container.active .main {
-  animation: main-animation 0.5s ease;
-  cursor: pointer;
-  transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
-}
 
 .links {
   position: absolute;
