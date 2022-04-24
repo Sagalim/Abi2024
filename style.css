@@ -1174,15 +1174,36 @@ main .recent-orders a{
 }
 
 .contact-card .card:nth-child(1) .icon{
-  background: #ffaf00;
+  background: rgb(255, 175, 0);
 }
 
 .contact-card .card:nth-child(2) .icon{
-  background: #da2268;
+  background: rgb(218, 34, 104);
 }
 
 .contact-card .card:nth-child(3) .icon{
-  background: #bb02ff;
+  background: rgb(187, 2, 255);
+}
+
+.contact-card .card:nth-child(1):hover{
+  box-shadow: 10px 0px 10px rgba(255, 175, 0, .2), 
+              -10px 0px 10px rgba(255, 175, 0, .2),
+              0px 10px 10px rgba(255, 175, 0, .2),
+              0px -10px 10px rgba(255, 175, 0, .2);
+}
+
+.contact-card .card:nth-child(2):hover{
+  box-shadow: 10px 0px 10px rgba(218, 34, 104, .2), 
+              -10px 0px 10px rgba(218, 34, 104, .2),
+              0px 10px 10px rgba(218, 34, 104, .2),
+              0px -10px 10px rgba(218, 34, 104, .2);
+}
+
+.contact-card .card:nth-child(3):hover{
+  box-shadow: 10px 0px 10px rgba(187, 2, 255, .2), 
+              -10px 0px 10px rgba(187, 2, 255, .2),
+              0px 10px 10px rgba(187, 2, 255, .2),
+              0px -10px 10px rgba(187, 2, 255, .2);
 }
 
 
