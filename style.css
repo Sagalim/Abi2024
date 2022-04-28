@@ -1138,19 +1138,12 @@ main .recent-orders a{
   overflow: hidden;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
-  border-radius: 0px;;
+  border-radius: 0px;
 }
 
-.contact-card .card:hover{
-  fill: blur(0px);
-  transform: scale(1.1);
-  opacity: 1;
-  box-shadow: none;
-  border-radius: 5px 20px 5px 20px;
-}
 
 .contact-card .card .icon{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
   background: #000;
@@ -1161,7 +1154,7 @@ main .recent-orders a{
 .contact-card .card .icon{
   color: var(--white-color);
   font-size: 4.5em;
-  padding: 9% 0;
+  padding: 10% 0;
 }
 
 .contact-card .card .icon .material-icons-sharp{
@@ -1169,10 +1162,15 @@ main .recent-orders a{
 }
 
 .contact-card .card .content{
-  position: absolute;
-  bottom: 10px;
-  padding: 20px;
+  position: relative;
+  margin-top: 85%;
   text-align: center;
+  font-weight: 600;
+}
+
+.contact-card .card .content .material-icons-sharp{
+  font-size: 20px;
+  color: green;
 }
 
 .contact-card .card .content p{
@@ -1191,26 +1189,6 @@ main .recent-orders a{
   background: rgb(187, 2, 255);
 }
 
-.contact-card .card:nth-child(1):hover{
-  box-shadow: 10px 0px 10px rgba(255, 175, 0, .2), 
-              -10px 0px 10px rgba(255, 175, 0, .2),
-              0px 10px 10px rgba(255, 175, 0, .2),
-              0px -10px 10px rgba(255, 175, 0, .2);
-}
-
-.contact-card .card:nth-child(2):hover{
-  box-shadow: 10px 0px 10px rgba(218, 34, 104, .2), 
-              -10px 0px 10px rgba(218, 34, 104, .2),
-              0px 10px 10px rgba(218, 34, 104, .2),
-              0px -10px 10px rgba(218, 34, 104, .2);
-}
-
-.contact-card .card:nth-child(3):hover{
-  box-shadow: 10px 0px 10px rgba(187, 2, 255, .2), 
-              -10px 0px 10px rgba(187, 2, 255, .2),
-              0px 10px 10px rgba(187, 2, 255, .2),
-              0px -10px 10px rgba(187, 2, 255, .2);
-}
 
 
 /*Animations*/
