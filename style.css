@@ -1049,7 +1049,6 @@ main .recent-orders a{
   border:none;
   outline: none;
   border-radius: 10px;
-  box-shadow: 0 3px 3px #aaa;
   margin: 40px;
   font-size: 20px;
   font-weight: bold;
