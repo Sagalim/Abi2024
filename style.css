@@ -441,6 +441,7 @@ header {
   overflow-x: hidden;
   appearance: none;
   color: var(--color-dark);
+  min-height: 100%;
 }
 
 #dashboard a{
@@ -582,18 +583,6 @@ main{
   margin-top: 1.4rem;
 }
 
-main .date{
-  display: inline-block;
-  background: var(--color-light);
-  border-radius: var(--border-radius-1);
-  margin-top: 1rem;
-  padding: 0.5rem 1.6rem;
-}
-
-main .date input[type="date"]{
-  background: transparent;
-  color: var(--color-dark);
-}
 
 main .insights{
   display: grid;
@@ -630,7 +619,7 @@ main .insights > div.income i{
   background: var(--color-success);
 }
 
-main .insights > div.middle{
+main .insights > div .middle{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -875,6 +864,7 @@ main .recent-orders a{
     position: relative;
     min-width: 100%;
     overflow-x: hidden;
+    min-height: 100%;
   }
 
   .container-dashboard{
