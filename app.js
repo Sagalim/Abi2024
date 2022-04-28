@@ -44,8 +44,6 @@ let calcScrollValue = () => {
   scrollProgress.addEventListener("click", () => {
     document.documentElement.scrollTop = 0;
   });
-  scrollProgress.style.background = `conic-gradient(red ${scrollValue}%, blue ${scollValue}%)`;
 };
 
 window.onscroll = calcScrollValue;
-window.onload = calcScrollValue;
