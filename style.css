@@ -1014,13 +1014,19 @@ main .recent-orders a{
 
 .container-project .card .content{
   position: absolute;
-  bottom: 10px;
+  bottom: 50px;
   padding: 20px;
   text-align: center;
 }
 
 .container-project .card .content p{
   color: #666;
+}
+
+.container-project .card .content p a{
+  color: #666;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .container-project .card:nth-child(1) .circle{
