@@ -1041,6 +1041,53 @@ main .recent-orders a{
   background: #bb02ff;
 }
 
+.finanzplan button{
+  width: 250px;
+  height: 50px;
+  text-align: left;
+  position: relative;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px #aaa;
+  margin: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.finanzplan button::after{
+  content: "";
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 30px;
+  margin-right: 155px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  transform: skew(-30deg);
+}
+
+.finanzplan button::before{
+  content: "Download";
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 170px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.finanzplan button:hover{
+  filter: brightness(.8);
+}
+
 
 /*Styling the ideas section*/
 #ideas{
