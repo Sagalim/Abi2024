@@ -1193,9 +1193,73 @@ main .recent-orders a{
   font-weight: 600;
 }
 
-#ideas textarea, button{
-  margin: 4px 0;
-  padding: 8px;
+.add-idea{
+  display: flex;
+  justify-content: center;
+}
+
+.add-idea #message{
+  resize: none;
+  border-radius: 20px;
+  width: 80vw;
+  background: rgba(255, 255, 255, .1);
+  text-align: center;
+  color: var(--color-white);
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.add-idea #message:focus{
+  outline: none;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 10px #036a84;
+}
+
+#ideas button{
+  width: 250px;
+  height: 50px;
+  text-align: left;
+  position: relative;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+  margin: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#ideas button::after{
+  content: "";
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 30px;
+  margin-right: 155px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  transform: skew(-30deg);
+}
+
+#ideas button::before{
+  content: "Send Your Idea";
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 170px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+#ideas button:hover{
+  filter: brightness(.8);
 }
 
 
