@@ -47,3 +47,13 @@ let calcScrollValue = () => {
 };
 
 window.onscroll = calcScrollValue;
+
+//Sending Mails
+function SendMail(){
+  var params = {
+    message : document.getElementById("message").value
+  }
+  emailjs.send('service_fpqvg9s', 'template_tzzuums', params).then(function (res) {
+    alert("Success! " + res.status);
+  })
+}

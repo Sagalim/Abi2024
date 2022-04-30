@@ -919,7 +919,7 @@ main .recent-orders a{
     height: 100vh;
     padding-right: var(--card-padding);
     display: none;
-    animation: showMenu 40ms ease forwards;
+    animation: showMenu 400ms ease forwards;
   }
 
   @keyframes showMenu {
@@ -1191,6 +1191,11 @@ main .recent-orders a{
   background: var(--section-background-color);
   color: var(--primary-color);
   font-weight: 600;
+}
+
+#ideas textarea, button{
+  margin: 4px 0;
+  padding: 8px;
 }
 
 
