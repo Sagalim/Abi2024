@@ -1373,6 +1373,10 @@ main .recent-orders a{
   background: rgb(187, 2, 255);
 }
 
+.contact-card .card:nth-child(4) .icon{
+  background: rgb(2, 255, 107);
+}
+
 
 /*Animations*/
 @keyframes main-animation {
