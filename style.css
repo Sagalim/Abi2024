@@ -11,6 +11,7 @@
   --color-danger: #ff7782;
   --color-success: #41f1b6;
   --color-warning: #ffbb55;
+  --color-neutral: rgb(0, 170, 255);
   --color-info-dark: #7d8da1;
   --color-info-light: #dce1eb;
   --color-light: rgb(132, 139, 200, 0.18);
@@ -498,6 +499,10 @@ b{
 
 .success{
   color: #41f1b6;
+}
+
+.neutral{
+  color: rgb(0, 170, 255);
 }
 
 .warning{
