@@ -1345,6 +1345,7 @@ main .recent-orders a{
   font-size: 1.5em;
 }
 
+
 .contact-card .card .content{
   position: relative;
   margin-top: 85%;
@@ -1361,6 +1362,18 @@ main .recent-orders a{
   color: #666;
 }
 
+.contact-card:hover .card{
+  fill: blur(20px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+.contact-card .card:hover{
+  fill: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 .contact-card .card:nth-child(1) .icon{
   background: rgb(255, 175, 0);
 }
@@ -1374,7 +1387,7 @@ main .recent-orders a{
 }
 
 .contact-card .card:nth-child(4) .icon{
-  background: rgb(2, 255, 107);
+  background: rgba(2, 255, 74, 0.734);
 }
 
 
